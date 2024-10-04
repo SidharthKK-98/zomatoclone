@@ -1,0 +1,642 @@
+
+@media(max-width:480px){
+   body{
+    overflow-x: hidden ;
+   
+   }
+   
+    .navbar{
+        width: 100%;
+        margin-left: 0px;
+        padding: 20px;
+        flex-wrap: wrap;
+
+
+    }
+    .app h4{
+        margin-left: 2px;
+        font-size: 15px;
+        position: absolute;
+       right:10px;
+       top:20px;
+
+
+    }
+     .menuicon label {
+        display: flex;
+        /* margin: 5px; */
+        position: absolute;
+        margin-top: 0px;
+        margin-left: -320px;
+        
+    }
+    .menuicon i {
+       font-size: 25px;
+       margin-top: -15px;
+    }
+    .menuicon .closeicon{
+        display: none;
+        color: black;
+        margin-left: -20px;
+    }
+
+
+    .navlinks a {
+       
+        display: none;
+    }
+     #check:checked ~  .navlinks   {
+        display: block;
+        width: 100vw;
+        height: 100vh;
+        margin-left: -340px;
+        text-align: center;
+        top: 0px;
+        background-color:white;
+        /* top: 50px; */
+        
+       }
+       #check:checked ~  .navlinks a{
+        color: black;
+        display: block;
+        line-height: 1rem;
+        margin-top: 60px;
+        margin-left: 20px;
+       } 
+      
+       #check:checked ~ label .icon{
+            display: none;
+       }
+       #check:checked ~ label  .closeicon{
+        display: flex;
+        z-index: 1;
+        margin-left: 5px;
+         }
+          
+
+
+
+    /* hero */
+    .hero{
+        width: 100%;
+
+        height:450px;
+    }
+    .logo {
+        top: 110px;
+        width: 200px;
+        background-size: cover;
+        left: -530px;
+       
+    }
+    .heading{
+        display: block;
+    }
+    .heading .first{
+        top: 250px;
+        font-size: 20px;
+        width: 400px;
+        margin-left: -340px;
+
+    }
+    .heading .sec{
+        top: 250px;
+        margin-top:30px;
+        font-size: 20px;
+        margin-left: -940px;
+        
+    }
+    .searchpanel{
+        display: block;
+        width: 97%;
+        margin-left: -340px;
+        top: 320px;
+
+    }
+    .location{
+        width:99%;
+        max-width: 480px;
+        overflow-x: hidden ;
+
+        padding-right:10px ;
+        border-radius: 10px;
+        margin-bottom: 5px;
+    }
+    .search{
+        width: 99%;
+        max-width: 480px;
+        overflow-x: hidden ;
+
+        border-radius: 10px;
+    }
+    .input{
+        width: 80%;
+    }
+     .navbar ,.hero ,.searchpanel{
+        max-width: 480px;
+       } 
+
+/* order online */
+
+     .order{
+        width: 150px;
+        height: 100px;
+        top:470px;
+        left: -170px;
+    }
+    .online{
+        width: 150px;
+        top: 80px;
+        height: 70px;
+    }
+    .online h4{
+        margin-top: 1px;
+        font-size: 12px;
+        padding-bottom: 0px;
+    }
+    .online h5{
+       
+        display: none;
+    }
+    .online .stay{
+        display: flex;
+        width: 150px;
+        font-size: 10px;
+    } 
+
+/* content */
+
+     .heading2 .third{
+        top: -60px;
+        left:180px;
+        font-size: 18px;
+
+    }
+    .heading2 .fourth{
+        top: -30px;
+        left:-540px;
+        font-size: 18px;
+    } 
+
+/* places */
+
+     .place1{
+        top:740px ;
+        display: block;
+     }
+    .place{
+        width: 300px;
+        margin: 30px;
+    }
+    .place2{
+        display: block;
+        top: 1060px;
+
+    }
+    .place3{
+        display: block;
+        top: 1380px;
+
+    }
+    .place h4{
+        font-size: 16px;
+    }
+    .place h5{
+        font-size: 14px;
+    }
+    .place i{
+        margin-left: 260px;
+    }
+    .place33 {
+        display: flex;
+        align-items:flex-start;
+    } 
+
+    /* add */
+
+     .add{
+        width: 100%;
+        max-width: 480px;
+        overflow-x: hidden ;
+
+        top: 1750px;
+        height: 350px;
+    }
+    .adddescription{
+        width: 100%;
+        max-width: 480px;
+        overflow-x: hidden ;
+
+    }
+    .adddescription h2{
+        font-size: 30px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .adddescription p{
+        font-size: 14px;
+    }
+    .radio{
+        width: 120px;
+    }
+    .email{
+        width: 200px;
+        margin-left: 20px;
+    }
+    .share{
+        display: none;
+    }
+    .share1{
+    margin-top: -70px;
+    margin-left:230px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 48px;
+    color: white;
+    background-color: #ef4f5f;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    }
+    .sub{
+        margin-left: 100px;
+    }
+    .img2 img{
+        margin-left: 30px;
+    } 
+
+    /* places */
+
+     .options{
+        top: 2100px;
+        margin-left: -10px;
+    }
+   
+    .fifth{
+        font-size: 20px;
+        margin-left: 35px;
+    }
+    .place41 h4{
+        font-size: 20px;
+    }
+    .place41 i{
+        margin-left:270px;
+        padding: 0px 10px 0px 0px ;
+    } 
+   
+    /* places */
+
+     .logo2{
+        top: 2700px;
+        margin-left: 10px;
+        display: block;
+    }
+    .logo2 .blacklogo{
+        width: 150px;
+    }
+    .language{
+        margin-top: 35px;
+        margin-left: 10px;
+    } 
+
+    /* links */
+
+     .links{
+        top: 2850px;
+        margin-left: 20px;
+        display: block;
+    }
+    .ul-links li a{
+        font-size: 14px;
+    }
+    .linkhead{
+        font-size: 16px;
+    }
+    .links1{
+        display: flex;
+        justify-content: space-around;
+    }
+    .links12{
+        margin-left: 80px;
+
+    }
+    .links2{
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .links22{
+        margin-left: 80px;
+
+    }
+    .social-link{
+        display: none;
+    }
+    .linkimg{
+        width: 137px;
+        top: 700px;
+    }.linkimg1{
+        margin-left: 250px;
+    }
+    .linkimg2{
+        margin-left: -100px;
+    }
+    .line {
+        display: flex;
+        width: 150px;
+        margin-top: 110px;
+        margin-left: 120px;
+    }
+    .line h3{
+        color: black;
+        font-weight: 400;
+        font-size: 16px;
+
+    }
+    .social{
+        top: 810px;
+        margin-left: 70px;
+
+    } 
+
+    /* footer */
+
+     .footer{
+        top: 3750px;
+        height: 200px;
+        width: 90%;
+        margin-left: 15px;
+        max-width: 480px;
+
+        overflow-x: hidden ;
+
+    }
+    .footer hr{
+        color: grey;
+    }
+    .footer p{
+        width: 90%;
+        max-width: 480px;
+
+        font-size: 11px;
+        margin-left: 20px;
+        margin-bottom: 50px;
+        line-height: 1rem;
+    } 
+
+
+
+}
+
+ @media(min-width:481px) and (max-width:768px){
+    body{
+        overflow-x: hidden;
+    }
+    .navbar{
+        width: 100%;
+        margin-left: 0px;
+        padding: 20px;
+
+    }
+    .app h4{
+        margin-left: 2px;
+        font-size: 15px;
+        position: absolute;
+       right:10px;
+       top:20px;
+
+
+    }
+    .menuicon i{
+        display: flex;
+        margin: 5px;
+        
+    }
+    .menuicon i {
+       font-size: 25px;
+    }
+
+    .navlinks a{
+        display: none;
+    }
+    .menuicon label {
+        display: flex;
+        /* margin: 5px; */
+        position: absolute;
+        margin-top: 0px;
+        margin-left: -700px;
+        
+    }
+    .menuicon i {
+       font-size: 25px;
+       margin-top: -15px;
+    }
+    .menuicon .closeicon{
+        display: none;
+        color: black;
+        margin-left: -20px;
+    }
+
+
+    .navlinks a {
+       
+        display: none;
+    }
+     #check:checked ~  .navlinks   {
+        display: block;
+        width: 100vw;
+        height: 100vh;
+        margin-left: -700px;
+        text-align: center;
+        top: 0px;
+        background-color:white;
+        /* top: 50px; */
+        
+       }
+       #check:checked ~  .navlinks a{
+        color: black;
+        display: block;
+        line-height: 1rem;
+        margin-top: 60px;
+        margin-left: 20px;
+       } 
+      
+       #check:checked ~ label .icon{
+            display: none;
+       }
+       #check:checked ~ label  .closeicon{
+        display: flex;
+        z-index: 1;
+        margin-left: 5px;
+         }
+          
+    .logo  {
+        margin-left: 250px;
+
+    }
+    .heading h2{
+        width: 700px;
+        margin-left: -270px;
+    }
+    .sec{
+        margin-top:50px;
+        justify-content: center;
+        
+    }
+    .searchpanel{
+        display: block;
+        top: 300px;
+        margin-left: -230px;
+    }
+    .location{
+        width: 550px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+    }
+    .search{
+        border-radius: 10px;
+    }
+    /* order online */
+     .order{
+        width: 400px;
+        height: 200px;
+        margin-left: 20px;
+    }
+    .online{
+        width: 400px;
+        height: 65px;
+        top: 140px;
+    }
+    .online h4{
+        padding:10px 22px 2px ;
+        font-size: 16px;
+    }
+    .online h5{
+        font-size: 14px;
+    } 
+
+    /* content */
+
+     .heading2 {
+        margin-left: 30px;
+        top: 650px;
+    }
+    .heading2 .fourth{
+        margin-top:50px;
+        left: 20px;    
+    } 
+
+    /* places */
+
+    .place1{
+        display: block;
+    }
+    .place2{
+        display: block;
+        top: 1280px;
+    }
+    .place3{
+        display: block;
+        top: 1540px;
+    }
+    .place{
+        margin: 10px 0px 0px 30px;
+        width: 680px;
+    }
+    .place i{
+        margin-left: 650px;
+    }
+    .place33 h4{
+        margin-left: 5px;
+    } 
+
+    /* add */
+
+    .add{
+        top: 1900px;
+    } 
+
+    /* options */
+
+     .options{
+        top: 2400px;
+        margin-left: 0px;
+    }
+    .fifth{
+        margin-left: 30px;
+    }
+    .place41{
+        width: 671px;
+        margin-left: 25px;
+    }
+
+    /* languages */
+
+   .logo2{
+        top: 2900px;
+        width: 95%;
+        margin-left: 10px;
+    }
+    .blacklogo{
+        margin-left: 10px;
+    } 
+
+    /* Links */
+
+     .links{
+        top: 3100px;
+        margin-left: 50px;
+        display: block;
+    }
+    .links1{
+        display: flex;
+        justify-content: space-between;
+    }
+    .links2{
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .social-link{
+        display: none;
+    }
+    .linkimg{
+        width: 200px;
+        top: 500px;
+    }.linkimg1{
+        margin-left: 350px;
+    }
+    .linkimg2{
+        margin-left: 20px;
+    }
+    .line {
+        display: flex;
+        width: 150px;
+        margin-top: 120px;
+        margin-left: 230px;
+    }
+    .line h3{
+        color: black;
+        font-weight: 400;
+
+    }
+    .social{
+        top: 600px;
+        margin-left: 200px;
+
+    } 
+
+    /* footer */
+
+     .footer{
+        width: 90%;
+        top:3750px;
+        margin-left: 40px;
+    }
+    .footer p{
+        margin-left: 30px;
+    } 
+}
+
